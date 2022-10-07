@@ -1,4 +1,5 @@
-int main(){
+int main()
+{
 
    int count, temp, i, j, number[30];
 
