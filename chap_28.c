@@ -1,5 +1,6 @@
 int main()
 {
+    printf("RA2211042010009\n");
     double arr[] = {8,18,13,29,7};
     int n;
     n = sizeof(arr) / sizeof(arr[0]);
