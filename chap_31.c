@@ -1,5 +1,6 @@
 int main()
 {
+  printf("RA2211042010009\n");
   int arr[100],size,sum=0;
   printf("Enter size of the array: ");
   scanf("%d",&size);
