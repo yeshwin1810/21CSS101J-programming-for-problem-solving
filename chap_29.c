@@ -1,15 +1,13 @@
 int main() 
 {
+  printf("RA2211042010009\n");
   int number, exp;
   long double result = 1.0;
   printf("Enter the number: ");
   scanf("%d", &number);
   printf("Enter exponent: ");
   scanf("%d", &exp);
-
- 
   int temp = exp;
-  
   while (temp != 0) {
     result *= number;
     --temp;
