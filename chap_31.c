@@ -1,5 +1,6 @@
 int main()
 {
+  printf("RA2211042010009\n");
   long number, temp;
   int count = 0;
   printf("Enter an integer: ");
@@ -9,6 +10,5 @@ int main()
     temp /= 10;
     ++count;
   } while (temp != 0);
-
   printf("Number of digits in the number %ld is: %d", number,count);
 }
